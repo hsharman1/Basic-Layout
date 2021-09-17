@@ -2,20 +2,33 @@
 <html>
 <head>
 
-<body>
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
- background-image: url("SSObackground.jpg")
+     <style>
+     table, th, td {
+       border: 1px solid black;
+       border-collapse: collapse;
+        }
 
+body {
+  width: 1700px;
+  height:800px;
+  background-image: url("images/SSObackground.jpg");
+  background-repeat: no-repeat;
+}
+
+nav{
+  width: 150px;
+  background-color: pink;
+  height:350px;
+  float:right;
+}
 </style>
+  <nav>
+      <a href="http://www.triple-h.org">Triple H</a>
+    </nav>
 </body>
 
-
 <head>
-<style>
+  <style>
 #TheHorsesIHaveRiden {
       color: black;
       padding: 30px;
@@ -26,11 +39,11 @@ table, th, td {
 
 <body>
 <h2 id="TheHorsesIHaveRiden"> The Horses I Have Riden</h2>
-
+<meta charset="UTF-8">
 </body>
 
 
-<p>Triple H provides horses that have been retired from jumping, racing or owners unable to care for them.</p>
+<p>Triple H provides horses that have been retired from jumping, racing or owners unable to care for them. &#128512; </p>
 
 
 <table style="width:100%">
@@ -51,6 +64,7 @@ table, th, td {
 </tr>
 </table>
 <style>
+h2 {font-size: 14px;}
 .names {
   background-color: blue;
   color: white;
@@ -58,6 +72,23 @@ table, th, td {
   margin: 20px;
   padding: 20px;
 }
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  }
+
+div.transbox h3 {
+  padding-top:10px;
+  margin: 1%;
+  font-weight: bold;
+  color: #000000;
+  }
+
+  img {
+    float: right;
+  }
 </style>
 </head>
 <body>
@@ -77,7 +108,9 @@ table, th, td {
   <p>Clydesdale</p>
 </div>
 
-<h3>My favorite time is spending being with my Dad and Laz.</h3>
+<div class="transbox">
+  <h3>My favorite time is spending being with my Dad and Laz.</h3>
+</div>
   <ol>
 
   <li>Scout</li>
@@ -90,7 +123,11 @@ table, th, td {
 
 
 
-  <a href="http://www.triple-h.org" > <img src="images/hrsdad.jpg" alt="My favorite time is spending time with Dad and Laz"></a>
+ <img src="images/hrsdad.jpg" alt="My favorite time is spending time with Dad and Laz"></a>
+
+<footer>
+    <p> Hannah who loves horses </p>
+</footer>
 
 
 </body>
